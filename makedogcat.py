@@ -5,7 +5,7 @@ import cv2
 import random
 import pickle
 
-dataDir = "C:\\Users\\mvcodeclub\\Desktop\\DCdataset\\dataset\\training_set"
+dataDir = "C:\\Users\\Stobaugh\\Desktop\\dataset\\training_set"
 categories = ["dogs", "cats"]
 
 img_size = 50
