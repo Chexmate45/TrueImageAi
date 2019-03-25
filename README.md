@@ -13,4 +13,4 @@ run rundogcat.py
 then
 have a image file of a cat or dog in the same folder as all of these files
 then
-run testdogcat.py [Name of image file] and there you go top stuufff
+run testdogcat.py [Name of image file] and there you go top stuuffff
