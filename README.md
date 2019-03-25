@@ -5,8 +5,8 @@ move all of the photos in testing to training according to folder name
 
 run makedogcat.py [directory of training set] BUT if the directory has any '\'s make sure to put TWO of them instead of one 
 EXAMPLE:
-Dont do: User\Desktop\
-do: User\\Desktop\\
+Dont do: User\\Desktop\\
+do: User\\\Desktop\\\
 Let that run for a minute
 then
 run rundogcat.py
