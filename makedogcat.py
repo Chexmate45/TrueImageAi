@@ -6,6 +6,7 @@ import random
 import pickle
 import sys
 
+print(sys.argv[1])
 
 dataDir = str(sys.argv[1])
 categories = ["dogs", "cats"]
