@@ -4,8 +4,10 @@ import os
 import cv2
 import random
 import pickle
+import sys
 
-dataDir = "C:\\Users\\Stobaugh\\Desktop\\dataset\\training_set"
+
+dataDir = sys.argv[1]
 categories = ["dogs", "cats"]
 
 img_size = 50
