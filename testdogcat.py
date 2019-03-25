@@ -14,5 +14,5 @@ def prepare(filepath):
 
 model = tf.keras.models.load_model('dogcat.model')
 
-prediction = model.predict([prepare(sys.argv[1])])
+prediction = model.predict([prepare(str(sys.argv[1]))])
 print(categories[int(prediction[0][0])])

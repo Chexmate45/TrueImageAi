@@ -7,7 +7,7 @@ import pickle
 import sys
 
 
-dataDir = sys.argv[1]
+dataDir = str(sys.argv[1])
 categories = ["dogs", "cats"]
 
 img_size = 50
